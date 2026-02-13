@@ -1,8 +1,9 @@
+import Hero from "./components/Hero";
 
 export default function Home() {
   return (
     <div className="bg-[#6E8480]">
-
+ <Hero />
       <h1 className="heading1B  flex justify-center items-center text-center">
         About Me
       </h1>
