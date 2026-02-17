@@ -22,7 +22,7 @@ export default function Home() {
       <div className="py-20 px-6">
         <div className="max-w-6xl mx-auto">
 
-          <h2 className="text-4xl font-semibold text-center mb-16">
+          <h2 className="heading1B text-center mb-16">
             What I do
           </h2>
 
@@ -35,9 +35,9 @@ export default function Home() {
             <div className="px-8 py-12 text-center">
               <div className="flex items-center justify-center gap-3 mb-4">
                 <img src="/square.png" alt="web icon" className="w-6 h-6" />
-                <h3 className="text-2xl font-medium">Web Development:</h3>
+                <h3 className="heading3">Web Development:</h3>
               </div>
-              <p className="text-white/80 max-w-md mx-auto">
+              <p className="heading5 text-white max-w-md mx-auto">
                 I use front-end languages such as HTML, CSS, and JavaScript to create
                 visually appealing projects that make users excited to use the
                 website while providing an easy user experience.
@@ -47,9 +47,9 @@ export default function Home() {
             <div className="px-8 py-12 text-center">
               <div className="flex items-center justify-center gap-3 mb-4">
                 <img src="/laptop.png" alt="backend icon" className="w-6 h-6" />
-                <h3 className="text-2xl font-medium">Back-End Coding:</h3>
+                <h3 className="heading3">Back-End Coding:</h3>
               </div>
-              <p className="text-white/80 max-w-md mx-auto">
+              <p className="heading5 text-white/80 max-w-md mx-auto">
                 I use back-end technologies such as Java, React, and SQL to create
                 functional websites that provide all the features users expect.
               </p>
@@ -58,9 +58,9 @@ export default function Home() {
             <div className="px-8 py-12 text-center">
               <div className="flex items-center justify-center gap-3 mb-4">
                 <img src="/speech.png" alt="communication icon" className="w-6 h-6" />
-                <h3 className="text-2xl font-medium">Communication</h3>
+                <h3 className="heading3">Communication</h3>
               </div>
-              <p className="text-white/80 max-w-md mx-auto">
+              <p className=" heading5 text-white max-w-md mx-auto">
                 Since coding is often collaborative, I’ve developed strong
                 communication skills to ensure productive teamwork.
               </p>
@@ -69,9 +69,9 @@ export default function Home() {
             <div className="px-8 py-12 text-center">
               <div className="flex items-center justify-center gap-3 mb-4">
                 <img src="/brush.png" alt="design icon" className="w-6 h-6" />
-                <h3 className="text-2xl font-medium">Design</h3>
+                <h3 className="heading3">Design</h3>
               </div>
-              <p className="text-white/80 max-w-md mx-auto">
+              <p className=" heading5 text-white max-w-md mx-auto">
                 I am proficient in Figma and create designs that translate
                 seamlessly into development.
               </p>
@@ -86,7 +86,7 @@ export default function Home() {
       <div className="py-20 px-6">
         <div className="max-w-6xl mx-auto relative">
 
-          <h2 className="text-4xl font-semibold text-center mb-16">
+          <h2 className="heading1B text-center mb-16">
             Skills
           </h2>
 

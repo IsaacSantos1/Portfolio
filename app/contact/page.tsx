@@ -19,7 +19,6 @@ export default function contact() {
       return;
     }
 
-    // For now, just simulate sending
     setSuccess("Message sent");
     setName("");
     setEmail("");
