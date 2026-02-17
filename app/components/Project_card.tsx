@@ -15,30 +15,15 @@ export default function Project_card({
 }: ProjectCardProps) {
   return (
     <div className="flex flex-col items-center text-white  bg-[#6E8480]">
-      
-      {/* Section Title */}
-      <h2 className="text-2xl font-semibold mb-4">{title}</h2>
-
-      {/* Card */}
+      <h2 className="heading1B  mb-4">{title}</h2>
       <div className="flex flex-col md:flex-row gap-6  bg-[#6E8480] p-5 rounded-md w-full max-w-4xl">
-        
-        <img
-          src={imgSrc}
-          alt={title}
-          className="w-full md:w-60 h-40 object-cover rounded-sm"
-        />
-
-        <div className="flex flex-col justify-between text-sm">
+        <img src={imgSrc} alt={title} className="md:w-100 h-75 object-cover rounded-sm"/>
+        <div className="flex flex-col justify-between heading5">
           <div>
-            <p className="text-xs mb-2">{date}</p>
-            <p className="leading-relaxed text-white/90">{info}</p>
+            <p className="heading5 mb-2">{date}</p>
+            <p className="text-white">{info}</p>
           </div>
-
-          <a
-            href={link}
-            target="_blank"
-            className="mt-3 text-teal-200 hover:underline text-sm"
-          >
+          <a href={link} target="_blank" className="mt-3 text-teal-200 hover:underline heading5">
             Link
           </a>
         </div>

@@ -3,14 +3,8 @@ import b1 from "../../public/heropics/pic1.png";
 
 export default function Hero() {
   return (
-    <div className="relative w-full h-screen overflow-hidden">
-      <Image 
-        src={b1} 
-        alt="A description of the image"
-        fill
-        className="object-cover"
-        priority
-      />
+    <div className="relative w-full h-[1500px] overflow-hidden ">
+      <Image src={b1}   alt="A description of the image" fill    className="object-cover" priority/>
     </div>
   );
 }
