@@ -27,10 +27,10 @@ export default function Home() {
     <div className="relative grid grid-cols-1 md:grid-cols-2">
       
       {/* Vertical Divider (desktop only) */}
-      <div className="hidden md:block absolute left-1/2 top-0 h-full w-px bg-white/40" />
+      <div className="hidden md:block absolute left-1/2 top-0 h-full w-px bg-white/100" />
 
       {/* Horizontal Divider */}
-      <div className="absolute top-1/2 left-0 w-full h-px bg-white/40" />
+      <div className="absolute top-1/2 left-0 w-full h-px bg-white/100 " />
 
       {/* Web Development */}
       <div className="px-8 py-12 text-center">
@@ -110,14 +110,14 @@ export default function Home() {
           
           {/* First Row */}
           <div className="flex items-center justify-center gap-10 flex-wrap">
-            <img src="/web.png" alt="HTML CSS JS" className="h-20 object-contain" />
-            <img src="/react.png" alt="React" className="h-20 object-contain" />
+            <img src="/web.png" alt="HTML CSS JS" className="h-20  w-24object-contain" />
+            <img src="/react.png" alt="React" className=" h-20  w-24object-contain" />
           </div>
 
           {/* Second Row */}
           <div className="flex items-center justify-center gap-10 flex-wrap">
-            <img src="/sql.png" alt="SQL" className="h-16 object-contain" />
-            <img src="/java.png" alt="Java" className="h-16 object-contain" />
+            <img src="/sql.png" alt="SQL" className="h-16 w-24 object-contain" />
+            <img src="/java.png" alt="Java" className="h-20  w-24 object-contain" />
           </div>
 
         </div>
@@ -128,10 +128,10 @@ export default function Home() {
         <h3 className="text-2xl mb-10">Technologies:</h3>
 
         <div className="flex flex-wrap justify-center gap-12">
-          <img src="/vscode.png" alt="VS Code" className="h-20 object-contain" />
-          <img src="/figma.png" alt="Figma" className="h-20 object-contain" />
-          <img src="/github.png" alt="GitHub" className="h-20 object-contain" />
-          <img src="/netlify.png" alt="Netlify" className="h-20 object-contain" />
+          <img src="/vscode.png" alt="VS Code" className="h-20 w-30 object-contain" />
+          <img src="/figma.png" alt="Figma" className="h-20  w-30object-contain" />
+          <img src="/github.png" alt="GitHub" className="h-20  w-30object-contain" />
+          <img src="/netlify.png" alt="Netlify" className="h-20  w-30 object-contain" />
         </div>
       </div>
 
