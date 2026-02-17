@@ -14,112 +14,130 @@ export default function Home() {
           Hi I am Isaac Santos and I am a junior at Technology High School studying computer science passionate about making the world a better place through the use of code!
         </p>
       </section>
+{/* What I Do Section */}
+<section className="py-20 px-6 bg-[#6f8683] text-white">
+  <div className="max-w-6xl mx-auto">
+    
+    {/* Title */}
+    <h2 className="text-4xl font-semibold text-center mb-16">
+      What I do
+    </h2>
 
-      {/* What I Do Section */}
-      <section className="py-16 px-4 md:px-8 bg-[#5a7370]">
-        <h2 className="heading1B text-center text-white mb-12">What I do</h2>
-        
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-6xl mx-auto">
-          {/* Web Development */}
-          <div className="bg-[#4a6360] p-6 rounded-lg">
-            <div className="flex items-center gap-4 mb-4">
-              <img src="/public/square.png" />
-              <h3 className="heading3 text-white">Web Development:</h3>
-            </div>
-            <p className="paragraph text-white">
-              I use front-end languages such as HTML, CSS, and JavaScript to create visually appealing projects that make users excited to use the website while providing an easy user experience.
-            </p>
-          </div>
+    {/* Grid Container */}
+    <div className="relative grid grid-cols-1 md:grid-cols-2">
+      
+      {/* Vertical Divider (desktop only) */}
+      <div className="hidden md:block absolute left-1/2 top-0 h-full w-px bg-white/40" />
 
-          {/* Back-End Coding */}
-          <div className="bg-[#4a6360] p-6 rounded-lg">
-            <div className="flex items-center gap-4 mb-4">
-                <img src="/public/laptop.png" />
-              <h3 className="heading3 text-white">Back-End Coding:</h3>
-            </div>
-            <p className="paragraph text-white">
-              I use Back-end languages such as Java, React and SQL to create a functional website that provides all the needs that users expect in a functional design.
-            </p>
-          </div>
+      {/* Horizontal Divider */}
+      <div className="absolute top-1/2 left-0 w-full h-px bg-white/40" />
 
-          {/* Communication */}
-          <div className="bg-[#4a6360] p-6 rounded-lg">
-            <div className="flex items-center gap-4 mb-4">
-              <img src="/public/speech.png" />
-              <h3 className="heading3 text-white">Communication</h3>
-            </div>
-            <p className="paragraph text-white">
-              As coding is usually a pair or group activity I have learned how to communicate effectively to create fast and productive workdays.
-            </p>
-          </div>
-
-          {/* Design */}
-          <div className="bg-[#4a6360] p-6 rounded-lg">
-            <div className="flex items-center gap-4 mb-4">
-              <img src="/public/brush.png" />
-              <h3 className="heading3 text-white">Design</h3>
-            </div>
-            <p className="paragraph text-white">
-              Before coding one must always have an effective design to create a smooth transition towards programming. I am proficient in Figma where I am able to create designs that are transferable onto VS Code and other compilers.
-            </p>
-          </div>
+      {/* Web Development */}
+      <div className="px-8 py-12 text-center">
+        <div className="flex items-center justify-center gap-3 mb-4">
+          <img src="/square.png" alt="web icon" className="w-6 h-6" />
+          <h3 className="text-2xl font-medium">Web Development:</h3>
         </div>
-      </section>
+        <p className="text-white/80 max-w-md mx-auto">
+          I use front-end languages such as HTML, CSS, and JavaScript to create
+          visually appealing projects that make users excited to use the
+          website while providing an easy user experience.
+        </p>
+      </div>
 
-      {/* Skills Section */}
-      <section className="py-16 px-4 md:px-8 bg-[#6E8480]">
-        <h2 className="heading1B text-center text-white mb-12">Skills</h2>
-        
-        <div className="max-w-4xl mx-auto">
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-            {/* Languages */}
-            <div className="text-center">
-              <h3 className="heading3 text-white mb-6">Languages:</h3>
-              <div className="flex flex-wrap justify-center gap-6">
-                <div className="flex flex-col items-center">
-                  <span className="text-4xl mb-2">🔴</span>
-                  <p className="text-white">HTML</p>
-                </div>
-                <div className="flex flex-col items-center">
-                  <span className="text-4xl mb-2">🟡</span>
-                  <p className="text-white">CSS</p>
-                </div>
-                <div className="flex flex-col items-center">
-                  <span className="text-4xl mb-2">🟨</span>
-                  <p className="text-white">JavaScript</p>
-                </div>
-                <div className="flex flex-col items-center">
-                  <span className="text-4xl mb-2">⚛️</span>
-                  <p className="text-white">React</p>
-                </div>
-              </div>
-            </div>
-
-            {/* Technologies */}
-            <div className="text-center">
-              <h3 className="heading3 text-white mb-6">Technologies:</h3>
-              <div className="flex flex-wrap justify-center gap-6">
-                <div className="flex flex-col items-center">
-                  <span className="text-4xl mb-2">⚡</span>
-                  <p className="text-white">Next.js</p>
-                </div>
-                <div className="flex flex-col items-center">
-                  <span className="text-4xl mb-2">🎯</span>
-                  <p className="text-white">Figma</p>
-                </div>
-                <div className="flex flex-col items-center">
-                  <span className="text-4xl mb-2">📦</span>
-                  <p className="text-white">Netlify</p>
-                </div>
-                <div className="flex flex-col items-center">
-                  <span className="text-4xl mb-2">🐙</span>
-                  <p className="text-white">GitHub</p>
-                </div>
-              </div>
-            </div>
-          </div>
+      {/* Back-End Coding */}
+      <div className="px-8 py-12 text-center">
+        <div className="flex items-center justify-center gap-3 mb-4">
+          <img src="/laptop.png" alt="backend icon" className="w-6 h-6" />
+          <h3 className="text-2xl font-medium">Back-End Coding:</h3>
         </div>
-      </section>
+        <p className="text-white/80 max-w-md mx-auto">
+          I use back-end technologies such as Java, React, and SQL to create
+          functional websites that provide all the features users expect in a
+          well-designed application.
+        </p>
+      </div>
+
+      {/* Communication */}
+      <div className="px-8 py-12 text-center">
+        <div className="flex items-center justify-center gap-3 mb-4">
+          <img src="/speech.png" alt="communication icon" className="w-6 h-6" />
+          <h3 className="text-2xl font-medium">Communication</h3>
+        </div>
+        <p className="text-white/80 max-w-md mx-auto">
+          Since coding is often a collaborative activity, I’ve developed strong
+          communication skills to ensure productive teamwork and efficient
+          workflows.
+        </p>
+      </div>
+
+      {/* Design */}
+      <div className="px-8 py-12 text-center">
+        <div className="flex items-center justify-center gap-3 mb-4">
+          <img src="/brush.png" alt="design icon" className="w-6 h-6" />
+          <h3 className="text-2xl font-medium">Design</h3>
+        </div>
+        <p className="text-white/80 max-w-md mx-auto">
+          Before development begins, strong design planning is essential. I am
+          proficient in Figma and create designs that translate seamlessly into
+          code using VS Code and other development tools.
+        </p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+{/* Skills Section */}
+<section className="py-20 px-6 bg-[#6E8480] text-white">
+  <div className="max-w-6xl mx-auto relative">
+
+    {/* Title */}
+    <h2 className="text-4xl font-semibold text-center mb-16">
+      Skills
+    </h2>
+
+    {/* Vertical Divider */}
+    <div className="hidden md:block absolute left-1/2 top-28 h-[65%] w-px bg-white/40"></div>
+
+    <div className="grid grid-cols-1 md:grid-cols-2 gap-16 items-start">
+
+      {/* Languages */}
+      <div className="text-center">
+        <h3 className="text-2xl mb-10">Languages:</h3>
+
+        <div className="flex flex-col items-center gap-10">
+          
+          {/* First Row */}
+          <div className="flex items-center justify-center gap-10 flex-wrap">
+            <img src="/web.png" alt="HTML CSS JS" className="h-20 object-contain" />
+            <img src="/react.png" alt="React" className="h-20 object-contain" />
+          </div>
+
+          {/* Second Row */}
+          <div className="flex items-center justify-center gap-10 flex-wrap">
+            <img src="/sql.png" alt="SQL" className="h-16 object-contain" />
+            <img src="/java.png" alt="Java" className="h-16 object-contain" />
+          </div>
+
+        </div>
+      </div>
+
+      {/* Technologies */}
+      <div className="text-center">
+        <h3 className="text-2xl mb-10">Technologies:</h3>
+
+        <div className="flex flex-wrap justify-center gap-12">
+          <img src="/vscode.png" alt="VS Code" className="h-20 object-contain" />
+          <img src="/figma.png" alt="Figma" className="h-20 object-contain" />
+          <img src="/github.png" alt="GitHub" className="h-20 object-contain" />
+          <img src="/netlify.png" alt="Netlify" className="h-20 object-contain" />
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
     </div>
   );
 }
