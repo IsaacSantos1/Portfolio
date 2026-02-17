@@ -14,13 +14,13 @@ export default function Project_card({
   link,
 }: ProjectCardProps) {
   return (
-    <div className="flex flex-col items-center text-white bg-[#7F9793]">
+    <div className="flex flex-col items-center text-white  bg-[#6E8480]">
       
       {/* Section Title */}
       <h2 className="text-2xl font-semibold mb-4">{title}</h2>
 
       {/* Card */}
-      <div className="flex flex-col md:flex-row gap-6 bg-[#7F9793] p-5 rounded-md w-full max-w-4xl">
+      <div className="flex flex-col md:flex-row gap-6  bg-[#6E8480] p-5 rounded-md w-full max-w-4xl">
         
         <img
           src={imgSrc}
