@@ -3,7 +3,7 @@ import Project_card from "../components/Project_card";
 export default function Page() {
   return (
     <main className="min-h-screen bg-[#6E8480] p-8 space-y-8 ">
-      <h1 className="text-3xl font-bold text-white mb-6">
+      <h1 className="heading1B pt-15 mb-6">
         Featured Projects
       </h1>
 
